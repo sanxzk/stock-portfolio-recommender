@@ -25,7 +25,7 @@ const Predict = () => {
         },
       };
       const response = await axios.get(
-        "https://stockify-backend-five.vercel.app/predict",
+        "https://stock-portfolio-recommender-backend.vercel.app/predict",
         config
       );
       if (response.data.success === true) {
